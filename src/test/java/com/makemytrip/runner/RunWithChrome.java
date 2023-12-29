@@ -35,5 +35,6 @@ public class RunWithChrome extends BaseClass {
 	public static void report() {
 		extent.flush();
 		driver.quit();
+		System.out.println("Hi Deva");
 	}
 }
